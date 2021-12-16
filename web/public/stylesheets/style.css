@@ -1,0 +1,58 @@
+body { 
+  /* background-color: lightyellow; */
+  background-image: url('/images/background.png');
+}
+
+h1 { 
+  color: black; 
+}
+
+.container {
+  width: 320px;
+  height: 700px;
+  flex-direction: column;
+  /* justify-content: center; */
+  display: flex;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  /* height: 150px; */  
+}
+
+
+/* body {
+  padding: 20px;
+  font-family: "Noto Sans KR", Helvetica, sans-serif;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #643BFF;
+  margin-bottom: 20px;
+}
+.container {
+  width: 200px;
+  height: 180px;
+  background: #643BFF;
+  margin-bottom: 10px;
+  display: flex;
+} */
+
+.item:nth-child(1) {  }
+.item:nth-child(2) {  }
+.item:nth-child(3) {  }
+.item:nth-child(4) {  }
+.item:nth-child(5) { flex-basis: 50px;}
+.item:nth-child(6) { flex-basis: 120px;}
+
+/*
+.item:nth-child(1) { background: #FFC447; }
+.item:nth-child(2) { background: #E87635; }
+.item:nth-child(3) { background: #FF4847; }
+.item:nth-child(4) { background: #D335E8; }
+.item:nth-child(5) { background: #FFC447; flex-basis: 50px;}
+.item:nth-child(6) { background: #E87635; flex-basis: 120px;}
+*/

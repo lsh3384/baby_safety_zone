@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<link rel="stylesheet" href="/stylesheets/style.css">
+		<title>Page Title</title>
+	</head>
+	
+	<body>
+		
+		<div class="container">
+			<div class="item">
+				<h1>Baby Safety Zone</h1>
+			</div>
+			
+			<div class="item">- 이용방법 -</div>
+
+			<div class="item">
+				<p>
+					1. 카메라를 원하는 위치에 고정해주세요.</br>
+					2. 범위지정 버튼을 클릭해서 범위를 지정하세요.</br>
+					3. 시작버튼을 눌러주세요.
+				</p>
+			</div>
+
+			<div class="item">
+				<!-- 스트리밍 영상 표시하는 캔버스 -->
+				<canvas id="stream_out" width="320" height="240" style="border:1px solid black;">canvas</canvas>
+			</div>
+
+			<div class="item">
+				<!-- 버튼들 -->
+				<div class="buttons">
+					<!-- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->
+					<button type="button" onclick="img_box_start()">범위지정</button>
+					<button type="button" onclick="send_coords()">시작</button>
+					<!--button type="button" onclick="resetFromHtml()">reset</button-->
+					<!--button id="check_btn">깜빡임</button-->
+				</div>
+			</div>
+
+			<div class="item">
+				<!-- 좌표 표시창 -->
+				<div id="coords_out" style="margin:0px;width:320px;height:100px;border:1px solid red;cursor:pointer;"></div>
+			</div>
+
+
+
+		</div>
+
+				
+
+		<!--자바스크립트 "socket.io" 라이브러리 불러옴 -->
+		<script src="/socket.io/socket.io.js"></script>  
+		<!-- 자바스크립트 baby.js -->
+		<script src="/javascripts/baby.js"></script>
+
+	</body>
+	
+</html>
