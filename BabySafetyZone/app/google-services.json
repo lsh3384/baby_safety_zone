@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1089308004545",
+    "project_id": "babysafetyzone-ea959",
+    "storage_bucket": "babysafetyzone-ea959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089308004545:android:a4bc21651d4c27a07a0440",
+        "android_client_info": {
+          "package_name": "com.example.kotest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089308004545-f61gk57kt97ior1jevhtrh5nbibvlqva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgmLB3PBCxsW5iTJ0z4ihAbYFGCOk0QJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089308004545-f61gk57kt97ior1jevhtrh5nbibvlqva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
