@@ -71,7 +71,8 @@ Baby Safety Zone
 
 - 프로젝트 기능 정하기
 
-- Python으로 Prototype 구현하기
+- Python으로 Prototype 구현하기(아래 링크 참조)  
+  https://github.com/lsh3384/baby_safety_zone_prototype.git
 
 - C++로 변경하여 구현하기
 
@@ -90,12 +91,13 @@ Baby Safety Zone
 [![Video Label](https://github.com/lsh3384/baby_safety_zone/blob/master/phone.png?raw=true)](https://www.youtube.com/watch?v=X8SZp3SYpKg)
 
 
-# FLOWCHART1(안전범위 설정 과정)
+# FLOWCHART
+## 안전범위 설정 과정
 
 ![dwdwd](https://github.com/lsh3384/baby_safety_zone/blob/master/process_setting_%20coordinates.png?raw=true)
 
 
-# FLOWCHART2(물체 인식 및 안전범위 판별 과정)
+## 물체 인식 및 안전범위 판별 과정
 
 ![dwdwd](https://github.com/lsh3384/baby_safety_zone/blob/master/process_start_recognition.png?raw=true)
 
